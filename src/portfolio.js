@@ -9,9 +9,17 @@ export const about = {
   role: 'Front End Developer',
   description:
     `
-    Adipisicing sit fugit ullam unde aliquid 
-    sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi
-    rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.
+    Quem sou eu? Prazer, tenho 32 anos moro no interior de São Paulo, tenho formação em Design Gráfico e estudo Análise e desenvolvimento de Sistemas,
+    
+    tendo formações nos cursos básicos para informática.
+
+    Meu interesse em programar começou no ano de 2020 junto ao curso de Sistemas!
+    
+    Escolhi desenvolvimento web para me aperfeiçoar 👨🏽‍💻 gosto de Javascript e Java!
+    
+    Este site foi construído durante meu aprendizado de React! 😻
+    
+    Vou adicionar funcionalidades a cada dia de aprendizado.
     `,
   resume: 'https://example.com',
   social: {
@@ -54,11 +62,12 @@ export const skills = [
   'TypeScript',
   'React',
   'SASS',
+  'Firebase',
   'Material UI',
   'Git',
   'Angular',
   'Java',
-  'Ionic'
+  'Ionic',
 ]
 
 export const contact = {

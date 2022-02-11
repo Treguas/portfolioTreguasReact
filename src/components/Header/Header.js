@@ -1,4 +1,4 @@
-import { header, projects } from '../../portfolio';
+import { header } from '../../portfolio';
 import { Navbar } from '../Navbar/Navbar'
 
 export const Header = () => {

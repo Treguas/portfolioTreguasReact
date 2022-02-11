@@ -6,7 +6,7 @@ export const Footer = () => (
       // href='https://github.com/Treguas'
       className='link footer__link'
     >
-      Created By Treguas
+      Created By <strong className='matrix'>Treguas</strong>
     </a>
   </footer>
 )
