@@ -8,7 +8,7 @@ export const Header = () => {
         <header className='header center'>
           <h3>
             {homepage ? (
-              <a href={linkedin} className='link' target="_blank">
+              <a>
                 {title}
               </a>
             ) : (

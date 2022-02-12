@@ -1,7 +1,7 @@
 export const header = {
   homepage: 'https://github.com/Treguas',
   linkedin: 'https://linkedin.com/in/vagnertreguas',
-  title: 'Vagner Treguas',
+  title: '   Treguas',
 }
 
 export const about = {
