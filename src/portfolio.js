@@ -28,6 +28,8 @@ export const about = {
   },
 }
 
+export const projects = [];
+
 export const skills = [
   'HTML',
   'CSS',
