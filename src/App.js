@@ -15,7 +15,7 @@ export const App = () => {
     </div>
         <main >
           <About />
-          {/* <Projects /> */}
+          <Projects />
           <Skills />
           <Contact />
         </main>
