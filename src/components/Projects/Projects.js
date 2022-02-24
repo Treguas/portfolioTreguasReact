@@ -6,8 +6,6 @@ import { SiJavascript, SiReact, SiAngular } from "react-icons/si";
 
 export const Projects = () => {
 
-
-
   return (
     <section id='projects' className='section projects'>
       <h2 className='section__title'>Projetos</h2>
@@ -16,7 +14,8 @@ export const Projects = () => {
         <div className="card">
             <div className="face face1">
                 <div className="content">
-                <SiJavascript  size="54px" color='white'/>
+                <SiJavascript  size="54px" style={{
+                    color: "#fcdc00"}} />
                     <h3>Matrix</h3>
                 </div>
             </div>
@@ -30,7 +29,9 @@ export const Projects = () => {
         <div className="card">
             <div className="face face1">
                 <div className="content">
-                <SiReact  size="54px" color='white'/>
+                <SiReact  size="54px" style={{
+                    color: "#61dafb"
+                }}/>
                     <h3>Portfólio</h3>
                 </div>
             </div>
@@ -42,9 +43,9 @@ export const Projects = () => {
             </div>
         </div>
         <div className="card">
-            <div class="face face1">
+            <div className="face face1">
                 <div className="content">
-                <SiAngular  size="54px" color='white'/>
+                <SiAngular  size="54px" style={{color: "#DD0031"}}/>
                   <h3>CRUD</h3>
                 </div>
             </div>
