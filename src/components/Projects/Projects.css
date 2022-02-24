@@ -108,4 +108,15 @@ VscGithubInverted
 {
   background: #333;
   color: #fff;
-} 
+}
+
+@media(max-width: 1100px)
+{
+  .container
+  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+  }
+}

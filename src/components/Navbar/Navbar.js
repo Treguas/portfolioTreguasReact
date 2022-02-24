@@ -17,7 +17,8 @@ export const Navbar = () => {
         style={{ display: showNavList ? 'flex' : null }}
         className='nav__list'
       >
-        {projects.length ? (
+
+        {skills.length ? (
           <li className='nav__list-item'>
             <a
               href='#projects'
@@ -28,7 +29,7 @@ export const Navbar = () => {
             </a>
           </li>
         ) : null}
-
+        
         {skills.length ? (
           <li className='nav__list-item'>
             <a
@@ -53,15 +54,6 @@ export const Navbar = () => {
           </li>
         ) : null}
       </ul>
-
-      {/* <button
-        type='button'
-        onClick={toggleTheme}
-        className='btn btn--icon nav__theme'
-        aria-label='toggle theme'
-      >
-        {themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
-      </button> */}
 
       <button
         type='button'

@@ -10,17 +10,17 @@ import './App.css';
 export const App = () => {
   return (
     <div id="top" className={`app`} >
-    <div className="header">
-      <Header />
-    </div>
-        <main >
-          <About />
-          <Projects />
-          <Skills />
-          <Contact />
-        </main>
-      <ScrollToTop />
-      <Footer />
+      <div className="header">
+        <Header />
+      </div>
+          <main >
+            <About />
+            <Projects />
+            <Skills />
+            <Contact />
+          </main>
+        <ScrollToTop />
+        <Footer />
     </div>
   );
 }
